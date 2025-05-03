@@ -52,12 +52,17 @@ Usando conda
 
 ## Instalación de dependencias
     Ejecutar en la carpeta del proyecto
-    ```bash
-        pip install -r requirements.txt
-    ```
+```bash
+    pip install -r requirements.txt
+```
 
 ## Ejecución de la aplicación
-    ```bash
-    streamlit run app.py
-    ```
-    Esto abrirá automáticamente tu navegador con la aplicación en ejecución. El puerto por defecto que usa streamlit es el 8501
+```bash
+streamlit run app.py
+```
+Esto abrirá automáticamente el navegador con la aplicación en ejecución. El puerto por defecto que usa streamlit es el 8501
+
+Tambien se puede usar en máquinas linux para dejar corriendo la aplicación para evitar que el proceso se detenga al cerrar la sesión.
+```bash
+nohup streamlit run app.py &
+```
