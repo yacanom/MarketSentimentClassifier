@@ -13,7 +13,7 @@ label_mapping = {0: "negative", 1: "neutral", 2: "positive"}
 st.title("Clasificación de Texto")
 
 # Agregar un campo de entrada de texto
-text_input = st.text_area("Ingresa el texto a clasificar", "")
+text_input = st.text_area("Ingresa el titular a clasificar", "")
 
 if st.button("Clasificar"):
     # Preprocesar el texto
